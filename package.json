@@ -1,0 +1,22 @@
+{
+  "name": "rainier-react-es6-cars",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jimthedev.github.io/rainier-react-es6-cars",
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
